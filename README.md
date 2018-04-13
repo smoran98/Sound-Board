@@ -41,6 +41,22 @@ For instructions on setting up , see [Getting started with Visual Studio](https:
 
 
 
+## Installing
+
+Clone the repository in cmd using following command
+
+```
+git clone https://github.com/smoran98/Sound-Board.git
+```
+
+
+Locate File
+
+```
+cd UWPSoundBoard
+
+
+
 ![](https://pbs.twimg.com/profile_images/867034392891457537/2_PUj0BC_400x400.jpg)
 
 
