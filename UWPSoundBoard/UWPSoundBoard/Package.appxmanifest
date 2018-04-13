@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="cb646d5a-a591-4acd-8a96-d59b35d95b2d"
-    Publisher="CN=G00338607"
+    Name="7c74aec5-91f8-48c5-8732-a7f681d1c217"
+    Publisher="CN=Bob"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="cb646d5a-a591-4acd-8a96-d59b35d95b2d" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="7c74aec5-91f8-48c5-8732-a7f681d1c217" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>UWPSoundBoard</DisplayName>
-    <PublisherDisplayName>G00338607</PublisherDisplayName>
+    <PublisherDisplayName>Bob</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
