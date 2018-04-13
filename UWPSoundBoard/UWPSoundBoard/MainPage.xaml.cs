@@ -61,7 +61,10 @@ namespace UWPSoundBoard
             if (String.IsNullOrEmpty(sender.Text)) goBack();
 
             SoundManager.GetAllSounds(Sounds);
-            Suggestions = Sounds.Where(p => p.Name.StartsWith(sender.Text)).Select(p => p.Name).ToList();
+            Suggestions = Sounds
+                .Where(p => p.Name.StartsWith(sender.Text))
+                .Select(p => p.Name)
+                .ToList();
             SearchAutoSuggestBox.ItemsSource = Suggestions;
 
         }
@@ -114,9 +117,16 @@ namespace UWPSoundBoard
 
                     if (contentType == "audio/wav" || contentType == "audio/mpeg")
                     {
-                        StorageFile newFile = await storageFile.CopyAsync(folder, storageFile.Name, NameCollisionOption.GenerateUniqueName);
+                        StorageFile newFile = 
+                            await storageFile.CopyAsync(
+                                folder, 
+                                storageFile.Name, 
+                                NameCollisionOption.GenerateUniqueName);
 
-                        MyMediaElement.SetSource(await storageFile.OpenAsync(FileAccessMode.Read), contentType);
+                        MyMediaElement.SetSource(
+                            await storageFile.OpenAsync(FileAccessMode.Read),
+                            contentType);
+
                         MyMediaElement.Play();
                     }
                 }

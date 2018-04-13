@@ -37,6 +37,7 @@
                             PlaceholderText="Search for sounds"
                             Width="200"
                             QueryIcon="Find"
+                            Margin="0,5,10,0"
                             TextChanged="SearchAutoSuggestBox_TextChanged"
                             QuerySubmitted="SearchAutoSuggestBox_QuerySubmitted"
                             RelativePanel.AlignRightWithPanel="True">
