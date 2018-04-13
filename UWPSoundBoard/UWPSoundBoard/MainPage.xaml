@@ -39,7 +39,8 @@
                             QueryIcon="Find"
                             TextChanged="SearchAutoSuggestBox_TextChanged"
                             QuerySubmitted="SearchAutoSuggestBox_QuerySubmitted"
-                            RelativePanel.AlignRightWithPanel="True" />
+                            RelativePanel.AlignRightWithPanel="True">
+            </AutoSuggestBox>
         </RelativePanel>
 
         <SplitView Grid.Row="1" Name="MySplitView" 

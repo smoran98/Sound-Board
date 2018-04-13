@@ -28,7 +28,7 @@ namespace UWPSoundBoard
     public sealed partial class MainPage : Page
     {
         private ObservableCollection<Sound> Sounds;
-
+        private List<String> Suggestions;
         private List<MenuItem> MenuItems;
 
         public MainPage()
@@ -53,20 +53,34 @@ namespace UWPSoundBoard
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
+            goBack();
+        }
+
+        private void SearchAutoSuggestBox_TextChanged(AutoSuggestBox sender, AutoSuggestBoxTextChangedEventArgs args)
+        {
+            if (String.IsNullOrEmpty(sender.Text)) goBack();
+
+            SoundManager.GetAllSounds(Sounds);
+            Suggestions = Sounds.Where(p => p.Name.StartsWith(sender.Text)).Select(p => p.Name).ToList();
+            SearchAutoSuggestBox.ItemsSource = Suggestions;
+
+        }
+
+        private void goBack()
+        {
             SoundManager.GetAllSounds(Sounds);
             CategoryTextBlock.Text = "All Sounds";
             MenuItemsListView.SelectedItem = null;
             BackButton.Visibility = Visibility.Collapsed;
         }
 
-        private void SearchAutoSuggestBox_TextChanged(AutoSuggestBox sender, AutoSuggestBoxTextChangedEventArgs args)
-        {
-
-        }
 
         private void SearchAutoSuggestBox_QuerySubmitted(AutoSuggestBox sender, AutoSuggestBoxQuerySubmittedEventArgs args)
         {
-
+            SoundManager.GetSoundsByName(Sounds, sender.Text);
+            CategoryTextBlock.Text = sender.Text;
+            MenuItemsListView.SelectedItem = null;
+            BackButton.Visibility = Visibility.Visible;
         }
 
         private void MenuItemsListView_ItemClick(object sender, ItemClickEventArgs e)

@@ -28,7 +28,7 @@
     <AppXManifest Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-13T14:17:45.201</Modified>
+      <Modified>2018-04-13T14:31:04.347</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -636,7 +636,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\bin\x86\Debug\UWPSoundBoard.xr.xml">
       <PackagePath>UWPSoundBoard.xr.xml</PackagePath>
-      <Modified>2018-04-13T14:17:44.013</Modified>
+      <Modified>2018-04-13T14:31:03.981</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -648,7 +648,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\bin\x86\Debug\Core\UWPSoundBoard.exe">
       <PackagePath>UWPSoundBoard.exe</PackagePath>
-      <Modified>2018-04-13T14:17:45.198</Modified>
+      <Modified>2018-04-13T14:31:04.343</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
