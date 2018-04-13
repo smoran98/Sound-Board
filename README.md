@@ -9,6 +9,18 @@ It allows users to:
 
 
 
+
+![Launch Screenshot](Screenshot/Screenshot1.png)
+
+![Search Screenshot](Screenshot/Screenshot2.png)
+
+![Menu Screenshot](Screenshot/Screenshot3.png)
+
+![SplitView Screenshot](Screenshot/Screenshot4.png)
+
+
+
+
 ## Requirements
 - Well-designed UI that is fit for purpose and provides a good user experience.
 
