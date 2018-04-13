@@ -1,5 +1,7 @@
 # Sound-Board
-Universal Windows Platform (UWP) app demonstrating real-world sounds. Using this app, you can play various sounds at the tip of your finger.
+Universal Windows Platform (UWP) app for our Mobile Apps Development module demonstrating real-world sounds. Using this app, you can play various sounds at the tip of your finger.
+
+
 
 ## What does the Sound-Board feature ...
 
