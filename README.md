@@ -12,9 +12,9 @@ It allows users to:
 
 ![Launch Screenshot](Screenshot/Screenshot1.png)
 
-![Search Screenshot](Screenshot/Screenshot2.png)
+![Search Screenshot](Screenshot/Screenshot3.png)
 
-![Menu Screenshot](Screenshot/Screenshot3.png)
+![Menu Screenshot](Screenshot/Screenshot2.png)
 
 ![SplitView Screenshot](Screenshot/Screenshot4.png)
 
@@ -51,4 +51,5 @@ For instructions on setting up , see [Getting started with Visual Studio](https:
 ## Submission
 - Github repository link for the project
 - Publisher name
-- App name and public link on the Windows Store. Make sure this is the public link or you will be penalised
+- App name and public link on the Windows Store
+- **Make sure this is the public link or you will be penalised**
