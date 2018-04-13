@@ -94,6 +94,7 @@
       <RootProperty Name="PlaceholderText" />
       <RootProperty Name="Width" />
       <RootProperty Name="QueryIcon" />
+      <RootProperty Name="Margin" />
       <RootEvent Name="TextChanged" />
       <RootEvent Name="QuerySubmitted" />
     </RootType>

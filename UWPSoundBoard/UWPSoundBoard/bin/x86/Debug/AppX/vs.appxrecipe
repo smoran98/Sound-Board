@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>CR1015</Machine>
+    <Machine>CR214</Machine>
     <WindowsUser>G00338607</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>8B7161B391B81AC3D8DC8183CA0EF90C2823B94E82CE1D3164E42DB4D13DCC69</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>CC1E3951992A00D2FF1D6DF1B130447CFEFB65B0F4F24FC14089466F140CEB0E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>7c74aec5-91f8-48c5-8732-a7f681d1c217_1.0.0.0_x86__dprxb4dt08t18</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>7c74aec5-91f8-48c5-8732-a7f681d1c217_dprxb4dt08t18!App</RegisteredUserModeAppID>
     <RegisteredPackageID>7c74aec5-91f8-48c5-8732-a7f681d1c217</RegisteredPackageID>
@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-13T14:31:04.347</Modified>
+      <Modified>2018-04-13T17:00:36.111</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\bin\x86\Debug\UWPSoundBoard.exe">
       <PackagePath>entrypoint\UWPSoundBoard.exe</PackagePath>
-      <Modified>2018-04-13T14:17:44.150</Modified>
+      <Modified>2018-04-13T17:00:31.672</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -462,181 +462,183 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.102</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Audio\Animals\Cat.wav">
       <PackagePath>Assets\Audio\Animals\Cat.wav</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.118</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Audio\Animals\Cow.wav">
       <PackagePath>Assets\Audio\Animals\Cow.wav</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.118</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Audio\Cartoons\Gun.wav">
       <PackagePath>Assets\Audio\Cartoons\Gun.wav</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.118</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Audio\Cartoons\Spring.wav">
       <PackagePath>Assets\Audio\Cartoons\Spring.wav</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.118</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Audio\Taunts\Clock.wav">
       <PackagePath>Assets\Audio\Taunts\Clock.wav</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.133</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Audio\Taunts\LOL.wav">
       <PackagePath>Assets\Audio\Taunts\LOL.wav</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.133</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Audio\Warnings\Ship.wav">
       <PackagePath>Assets\Audio\Warnings\Ship.wav</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.149</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Audio\Warnings\Siren.wav">
       <PackagePath>Assets\Audio\Warnings\Siren.wav</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.149</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Icons\animals.png">
       <PackagePath>Assets\Icons\animals.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.149</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Icons\cartoon.png">
       <PackagePath>Assets\Icons\cartoon.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Icons\taunt.png">
       <PackagePath>Assets\Icons\taunt.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Icons\warning.png">
       <PackagePath>Assets\Icons\warning.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Images\Animals\Cat.png">
       <PackagePath>Assets\Images\Animals\Cat.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Images\Animals\Cow.png">
       <PackagePath>Assets\Images\Animals\Cow.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Images\Cartoons\Gun.png">
       <PackagePath>Assets\Images\Cartoons\Gun.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Images\Cartoons\Spring.png">
       <PackagePath>Assets\Images\Cartoons\Spring.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Images\Taunts\Clock.png">
       <PackagePath>Assets\Images\Taunts\Clock.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Images\Taunts\LOL.png">
       <PackagePath>Assets\Images\Taunts\LOL.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Images\Warnings\Ship.png">
       <PackagePath>Assets\Images\Warnings\Ship.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Images\Warnings\Siren.png">
       <PackagePath>Assets\Images\Warnings\Siren.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\1240x1240.png">
       <PackagePath>Assets\PackageAppXManifest\1240x1240.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\1240x600.png">
       <PackagePath>Assets\PackageAppXManifest\1240x600.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\24x24-large.png">
       <PackagePath>Assets\PackageAppXManifest\24x24-large.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\24x24.png">
       <PackagePath>Assets\PackageAppXManifest\24x24.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\300x300.png">
       <PackagePath>Assets\PackageAppXManifest\300x300.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.180</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\310x310.png">
-      <PackagePath>Assets\PackageAppXManifest\310x310.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+    <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\310x310.scale-100.png">
+      <PackagePath>Assets\PackageAppXManifest\310x310.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-04-13T16:54:57.180</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\50x50-large.png">
       <PackagePath>Assets\PackageAppXManifest\50x50-large.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.180</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\50x50.png">
       <PackagePath>Assets\PackageAppXManifest\50x50.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.180</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\620x300.png">
       <PackagePath>Assets\PackageAppXManifest\620x300.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.180</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\71x71-large.png">
       <PackagePath>Assets\PackageAppXManifest\71x71-large.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.180</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\71x71.png">
-      <PackagePath>Assets\PackageAppXManifest\71x71.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+    <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\71x71.scale-100.png">
+      <PackagePath>Assets\PackageAppXManifest\71x71.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-04-13T16:54:57.180</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\88x88-large.png">
       <PackagePath>Assets\PackageAppXManifest\88x88-large.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.180</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\88x88.png">
       <PackagePath>Assets\PackageAppXManifest\88x88.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.180</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-04-13T16:54:57.196</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.180</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.196</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.196</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-30T16:50:32.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.196</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.196</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2015-09-30T16:50:32.000</Modified>
+      <Modified>2018-04-13T16:54:57.196</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\bin\x86\Debug\UWPSoundBoard.xr.xml">
       <PackagePath>UWPSoundBoard.xr.xml</PackagePath>
-      <Modified>2018-04-13T14:31:03.981</Modified>
+      <Modified>2018-04-13T17:00:31.124</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -644,11 +646,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2018-04-13T14:17:44.956</Modified>
+      <Modified>2018-04-13T17:00:34.746</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\bin\x86\Debug\Core\UWPSoundBoard.exe">
       <PackagePath>UWPSoundBoard.exe</PackagePath>
-      <Modified>2018-04-13T14:31:04.343</Modified>
+      <Modified>2018-04-13T17:00:36.107</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

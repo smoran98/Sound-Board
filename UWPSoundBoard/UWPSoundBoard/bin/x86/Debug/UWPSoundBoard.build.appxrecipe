@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>CR1015</Machine>
+    <Machine>CR214</Machine>
     <WindowsUser>G00338607</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -421,8 +421,9 @@
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\300x300.png">
       <PackagePath>Assets\PackageAppXManifest\300x300.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\310x310.png">
-      <PackagePath>Assets\PackageAppXManifest\310x310.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\310x310.scale-100.png">
+      <PackagePath>Assets\PackageAppXManifest\310x310.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\50x50-large.png">
       <PackagePath>Assets\PackageAppXManifest\50x50-large.png</PackagePath>
@@ -436,14 +437,19 @@
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\71x71-large.png">
       <PackagePath>Assets\PackageAppXManifest\71x71-large.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\71x71.png">
-      <PackagePath>Assets\PackageAppXManifest\71x71.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\71x71.scale-100.png">
+      <PackagePath>Assets\PackageAppXManifest\71x71.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\88x88-large.png">
       <PackagePath>Assets\PackageAppXManifest\88x88-large.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\88x88.png">
       <PackagePath>Assets\PackageAppXManifest\88x88.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -462,10 +468,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\Assets\Wide310x150Logo.scale-200.png">
