@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-13T17:00:36.111</Modified>
+      <Modified>2018-04-13T17:35:48.022</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\bin\x86\Debug\UWPSoundBoard.exe">
       <PackagePath>entrypoint\UWPSoundBoard.exe</PackagePath>
-      <Modified>2018-04-13T17:00:31.672</Modified>
+      <Modified>2018-04-13T17:35:42.850</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -646,11 +646,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2018-04-13T17:00:34.746</Modified>
+      <Modified>2018-04-13T17:35:46.775</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00338607\Desktop\Sound-Board\UWPSoundBoard\UWPSoundBoard\bin\x86\Debug\Core\UWPSoundBoard.exe">
       <PackagePath>UWPSoundBoard.exe</PackagePath>
-      <Modified>2018-04-13T17:00:36.107</Modified>
+      <Modified>2018-04-13T17:35:47.998</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
